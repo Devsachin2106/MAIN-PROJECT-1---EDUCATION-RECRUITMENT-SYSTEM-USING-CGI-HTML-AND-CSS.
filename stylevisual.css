@@ -1,0 +1,296 @@
+*{
+    	padding: 0;
+	margin: 0;
+    	font-family: 'Josefin Sans', sans-serif;
+    	box-sizing: border-box;
+}
+
+.hero{
+    	height: 100vh;
+    	width: 100%;
+    	background-image: url(../sachin/keyboard.jpg);
+    	background-size: cover;
+    	background-position: center;
+}
+nav{
+    	display: flex;
+    	align-items: center;
+    	justify-content: space-between;
+    	padding-top: 45px;
+    	padding-left: 8%;
+    	padding-right: 8%;
+}
+
+.logo{
+    	color: white;
+    	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+    	color: #f9004d;
+}
+nav ul li{
+    	list-style-type: none;
+    	display: inline-block;
+    	padding: 10px 25px;
+}
+nav ul li a{
+    	color: white;
+    	text-decoration: none;
+    	font-weight: bold;
+    	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f9004d;
+    	transition: .4s;
+}
+.btn{
+	width: 200%;
+	height: 45px;
+	background: red;
+	border: 2px solid transparent;
+	font-weight: bold;
+	font-size: 1rem;
+	color: white;
+	cursor: pointer;
+        padding: 10px 10px;
+    	border-radius: 30px;
+    	transition: transform.4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 75%;
+    left: 63%;
+    transform: translateY(-50%);
+}
+h1{
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    margin: 20px;
+    font-size: 40px; 
+    top: 20%;
+}
+span{
+    font-family: "Times New Roman", Times, serif;
+    color: #f9004d;
+}
+
+h2{
+    font-family: "Lucida Handwriting", cursive;
+    color: white;
+    margin: 25px;
+    font-size: 20px;   
+}
+
+.services{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.section-title{
+    font-size: rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    text-align: center;
+
+}
+.service-top p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+.service-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(../sachin/ps.jpg);
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+}
+.service-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100;
+    width: 100;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: .8;
+    z-index: -1;
+}
+
+.service-item h2{
+	font-size: 2rem;
+	font-color: red;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.service-item p{
+	color:white;
+	text-align:left;
+	font-size: 1.4rem;
+	font-height: 1.9rem;
+}
+
+
+.about{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+
+}
+.section-title{
+    font-size: rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    text-align: center;
+    right:10%;
+
+}
+
+.col-right p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+.service-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    border-radius: 10px;
+    background-image: url(../sachin/ps.jpg);
+    background-size: cover;
+    margin: 30px 5%;
+    position: relative;
+    z-index: 1;
+}
+.service-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100;
+    width: 100;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: .8;
+    z-index: -1;
+}
+
+.service-item h2{
+	font-size: 2rem;
+	font-color: red;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	top:10%;
+}
+.service-item p{
+	color:white;
+	text-align:left;
+	font-size: 1.4rem;
+	font-height: 1.9rem;
+}
+
+.contact{
+	flex-direction: coloumn;
+	max-width: 1200px;
+	margin: 0 ayto;
+}
+.contact-items{
+	width: 700px;
+	
+}
+.contact-item{
+	width: 150%;
+	padding: 150x;
+	text-align: center;
+	bobrder-radius: 10px;
+	padding: 60px;
+	margin: 100px;
+	display: right;
+	justify-content: center;
+	align-items: center;
+	flex-direction: coloum;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	transition: .3s ease box-shadow;
+}
+.contact-item:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
+}
+.icon{
+	width: 70px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+
+}
+.conntact-info h1{
+	color: black;
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+.conntact-info h3{
+	font-size: 1.3rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+.sign{
+    	height: 100vh;
+    	width: 100%;
+    	background-image: url(../sachin/keyboard.jpg);
+    	background-size: cover;
+    	background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
